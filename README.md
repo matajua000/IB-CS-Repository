@@ -6,7 +6,7 @@
 [Link](https://github.com/matajua000/IB-CS-Repository/blob/master/Class%20Notes.md)
 
 ### Link For Course Discription
-[Link](https://matajua000.github.io/IB-CS-Repository)
+[Link](https://github.com/matajua000/IB-CS-Repository/blob/master/IB%20CS%20Course%20Description.md)
 
 ### Link For Syllabus
 [Link](https://github.com/matajua000/IB-CS-Repository/blob/master/IB%20CS%20Syllabus.md)
