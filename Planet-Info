@@ -1,0 +1,79 @@
+<html>
+  <head></head>
+    <body>
+<svg width="936" height="400" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g stroke="null">
+  <title stroke="null">background</title>
+  <rect stroke="null" fill="#fff" id="canvas_background" height="402" width="938" y="-1" x="-1"/>
+  <g style="vector-effect: non-scaling-stroke;" stroke="null" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g stroke="null">
+  <title stroke="null">Layer 1</title>
+  <rect stroke="#000" id="svg_2" height="402.000809" width="375.999994" y="-1.062466" x="-8.486523" stroke-width="1.5" fill="#d6d6d1"/>
+  <text stroke="#000" style="vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="28.4375" x="128.000842" stroke-width="0" fill="#000000">Planets</text>
+  <rect stroke="#000" id="svg_4" height="401.000834" width="568.025617" y="0.500421" x="368.010934" stroke-width="1.5" fill="#000000"/>
+  <text stroke="#ffffff" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_8" y="41.4375" x="608.000842" fill="#000000">Planet Info</text>
+  <path stroke="#ffffff" id="svg_9" d="m-215.999158,-43.5625c0,0 349,-30 344,-30" opacity="0.5" stroke-width="1.5" fill="#000000"/>
+  <text stroke="#000" style="vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Mercury" onclick=callMercury() y="69.938231" x="32.944378" fill-opacity="null" stroke-opacity="null" fill="#000000">Mercury</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Venus" onclick=callVenus() y="72.434018" x="149.248116" fill-opacity="null" stroke-opacity="null" fill="#000000">Venus</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Mars"onclick=callMars() y="159.287458" x="27.453647" fill-opacity="null" stroke-opacity="null" fill="#000000">Mars</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Jupiter" onclick=callJupiter() y="161.783249" x="140.263286" fill-opacity="null" stroke-opacity="null" fill="#000000">Jupiter</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Saturn" onclick=callSaturn() y="164.279033" x="259.062809" fill-opacity="null" stroke-opacity="null" fill="#000000">Saturn</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Uranus" onclick=callUranus() y="269.601301" x="69.38289" fill-opacity="null" stroke-opacity="null" fill="#000000">Uranus</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Neptune" onclick=callNeptune() y="273.095419" x="205.153785" fill-opacity="null" stroke-opacity="null" fill="#000000">Neptune</text>
+
+  <text stroke="#000" style="cursor: move; vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Earth" onclick=callEarth() y="73.931492" x="263.555223" fill-opacity="null" stroke-opacity="null" fill="#000000">Earth</text>
+
+  <text stroke="#ffffff" style="vector-effect: non-scaling-stroke;" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Planet Name" y="92.351582" x="614.98905" fill="#000000">Mercury</text>
+
+  <text style="cursor: move;" stroke="#ffffff" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="Info" y="254.078674" x="581.046327" fill="#000000">This Is The 1st Planet</text>
+</svg>
+
+
+
+<script>
+function callMercury(){
+  document.getElementById('Planet Name').innerHTML="Mercury";
+  document.getElementById('Info').innerHTML="This Is The 1st Planet";
+}
+function callVenus(){
+  document.getElementById('Planet Name').innerHTML="Venus";
+  document.getElementById('Info').innerHTML="This Is The 2nd Planet";
+}
+function callEarth(){
+  document.getElementById('Planet Name').innerHTML="Earth";
+  document.getElementById('Info').innerHTML="This Is The 3rd Planet";
+}
+function callMars(){
+  document.getElementById('Planet Name').innerHTML="Mars";
+  document.getElementById('Info').innerHTML="This Is The 4th Planet";
+}
+function callJupiter(){
+  document.getElementById('Planet Name').innerHTML="Jupiter";
+  document.getElementById('Info').innerHTML="This Is The 5th Planet";
+}
+function callSaturn(){
+  document.getElementById('Planet Name').innerHTML="Saturn";
+  document.getElementById('Info').innerHTML="This Is The 6th Planet";
+}
+function callUranus(){
+  document.getElementById('Planet Name').innerHTML="Uranus";
+  document.getElementById('Info').innerHTML="This Is The 7th Planet";
+}
+function callNeptune(){
+  document.getElementById('Planet Name').innerHTML="Neptune";
+  document.getElementById('Info').innerHTML="This Is The 8th Planet";
+}
+</script>
+
+  </body>
+</html>
