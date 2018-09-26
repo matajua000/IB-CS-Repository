@@ -12,7 +12,7 @@
 [Link](https://github.com/matajua000/IB-CS-Repository/blob/master/IB%20CS%20Syllabus.md)
 
 ### Link Multi-Lingual Hello World
-[Link](https://matajua000.github.io/IB-CS-Repository/Multi-LingualHTML
+[Link](https://matajua000.github.io/IB-CS-Repository/Multi-Language-Hello-World.HTML)
 
 You can use the [editor on GitHub](https://github.com/matajua000/IB-CS-Repository/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
