@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script>
+      var languages = [
+             "Markup Language", "This is a language that has to do with making things look good, the thing is that is human readable because it contains regular words.",
+
+             "High Level Programing Language", "This is a language that is pretty complex but also it is making is more simpler. Another thing is that it is more simpler and understandable than the low level language",
+
+             "Low Level Programming Language", "This is a language that provides littleor no abstraction to the computer. The low part means that the language has little or no abtraction towards the computer",
+
+             "Compiled Programming Language", "This is like the title a compiled language that is in a way somewhat vague. Also this language does not work with interpreters.",
+
+             "Interpreted Programming Language", "This is a language that follows intrustions directly and freely. This language is growing in popularity",
+
+             "Style Sheet Language","This is a document that is used to format different documents. For exaple on way that it is used is with CSS which runs in HTML and other languages."
+
+         ]
+         function changeLanguage(lang, words){
+              document.getElementById("h1").innerHTML = languages[lang];
+              document.getElementById("p1").innerHTML = languages[words];
+            }
+    </script>
+  </head>
+
+  <body>
+    <h1 id="h1">Multi-lingual Hello World</h1>
+    <p id="p1">Click a language below</p>
+
+    <span onclick="changeLanguage(0,1)">Markup Language</span> -||-
+    <span onclick="changeLanguage(2,3)">High Level Programing Language</span> -||-
+    <span onclick="changeLanguage(4,5)">Low Level Programming Language</span> -||-
+    <span onclick="changeLanguage(6,7)">Compiled Programming Language</span> -||-
+    <span onclick="changeLanguage(8,9)">Interpreted Programming Language</span> -||-
+    <span onclick="changeLanguage(10,11)">Style Sheet Language</span>
+  </body>
+</html>
