@@ -15,7 +15,7 @@
 [Link](https://matajua000.github.io/IB-CS-Repository/Multi-Language-Hello-World.HTML)
 
 ### Link For My Protype
-[Link](https://matajua000.github.com/IB-CS-Repository/Prototype.html)
+[Link](https://matajua000.github.io/IB-CS-Repository/Prototype.html)
 
 You can use the [editor on GitHub](https://github.com/matajua000/IB-CS-Repository/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
