@@ -1,0 +1,64 @@
+<html>
+  <!--head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  </head>
+  <body>
+  </body-->
+  <head>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+ <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+</head>
+<body>
+
+<div id="mapid" style="height: 900px; width: 80%; margin: 35px; border-radius: 13px;"></div>
+
+<script>
+  var mymap = L.map('mapid').setView([29.79, -95.54], 11.5);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox.streets',
+      accessToken: 'your.mapbox.access.token'
+  }).addTo(mymap);
+
+  var circle = L.circle([29.780858, -95.453776], {
+    color: 'red',
+    fillColor: 'none',
+    fillOpacity: 0.5,
+    radius: 13000
+}).addTo(mymap);
+var m_iu = L.marker([29.829997, -95.508907]).addTo(mymap);
+m_iu.bindPopup("<center><b>My Home</b></center>");
+
+var m_kam = L.marker([29.815592, -95.485733]).addTo(mymap);
+m_kam.bindPopup("<center><b>My WorkPlace</b><a href='https://www.fiestamart.com'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.780797, -95.583196]).addTo(mymap);
+m_kam.bindPopup("<center><b>School</b><a href='https://wais.springbranchisd.com/'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.847928, -95.501847]).addTo(mymap);
+m_kam.bindPopup("<center><b>Chick Fil A</b><a href='https://www.cfarestaurant.com/northwestcrossing/home'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.826219, -95.508741]).addTo(mymap);
+m_kam.bindPopup("<center><b>My Elementary School</b><a href='https://hbe.springbranchisd.com/'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.783482, -95.557474]).addTo(mymap);
+m_kam.bindPopup("<center><b>Taste Of Texas</b><a href='https://www.tasteoftexas.com'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.715386, -95.389443]).addTo(mymap);
+m_kam.bindPopup("<center><b>Houston Zoo</b><a href='https://www.houstonzoo.org/'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.722529, -95.389689]).addTo(mymap);
+m_kam.bindPopup("<center><b>Houston Museum of Natural Science</b></center>");
+</script>
+
+</body>
+</html>
