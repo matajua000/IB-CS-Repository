@@ -23,3 +23,7 @@ This is shown a program that I did that is showing the different computer langua
 ### [Link For My Protoype](https://matajua000.github.io/IB-CS-Repository/Prototype.html)
 
 This is my prototype of one the ideas that I had come up with and it was not the best thing I made.
+
+### [Link For The D3 Practice](https://matajua000.github.io/IB-CS-Repository/D3_Practice.html)
+
+This is a practice that I did using my first library
