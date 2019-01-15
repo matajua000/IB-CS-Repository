@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>D3.js Essential Training For Data Scientist</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+
+  <body>
+    <script>
+      var dataArray = [10,9,8,7,6,5,4,3,2,1];
+
+      var svg = d3.select("body").append("svg").attr("height", "100%").attr("width", "100%");
+
+      svg.selectAll("rect")
+           .data(dataArray)
+           .enter().append("rect")
+                     .attr("height", function(d,i){ return d*15; })
+                     .attr("width","50")
+                     .attr("fill","magenta")
+                     .attr("x",function(d,i){return 60*i; })
+                     .attr("y",function(d,i){return 100-(d*15); });
+    </script>
+  </body>
+
+</html>
