@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <script>
+    balance = 7;
+      var a;
+      a = 10;
+      var b;
+      b = 2;
+      var c;
+      c = 7;
+      var d;
+      d = 3;
+      document.write("Hello There, Come See Math Live");
+      function callFunction1(){
+        balance = balance*b;
+      document.getElementById('h1').innerHTML = "13";
+      document.getElementById('h1').innerHTML = balance;
+}
+      function callFunction2(){
+        balance = balance+c;
+      document.getElementById('h1').innerHTML = "13";
+      document.getElementById('h1').innerHTML = balance;
+}
+        function callFunction3(){
+          balance = balance/d;
+      document.getElementById('h1').innerHTML = "13";
+      document.getElementById('h1').innerHTML = balance;
+}
+        function callFunction4(){
+          balance = balance-a;
+      document.getElementById('h1').innerHTML = "13";
+      document.getElementById('h1').innerHTML = balance;
+}
+    </script>
+  </head>
+  <body>
+    <h1 id='h1'>7</h1>
+
+<button onclick="callFunction1()">Multiply By 2</button>
+<button onclick="callFunction2()">Add 7</button>
+<button onclick="callFunction3()">Divide By 3</button>
+<button onclick="callFunction4()">Subtract 10</button>
+  </body>
+  </html>
