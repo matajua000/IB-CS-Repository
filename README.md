@@ -34,4 +34,7 @@ This is the first atom file that I made and also I made it using variables.
 
 ### [Link For Planets](https://matajua000.github.io/IB-CS-Repository/PLANETS_SVG.html)
 
-This is a SVG but I made it into HTML. It is pretty primative and simple.
+This is an SVG but I made it into HTML. It is pretty primitive and simple.
+
+### [Link For Leaflet](https://matajua000.github.io/IB-CS-Repository/Leaflet.html)
+This is a leaflet file that I crearted using the library that uses Google Maps.
