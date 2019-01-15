@@ -37,4 +37,9 @@ This is the first atom file that I made and also I made it using variables.
 This is an SVG but I made it into HTML. It is pretty primitive and simple.
 
 ### [Link For Leaflet](https://matajua000.github.io/IB-CS-Repository/Leaflet.html)
+
 This is a leaflet file that I crearted using the library that uses Google Maps.
+
+### [Link For Planets_2.0](https://matajua000.github.io/IB-CS-Repository/Planets2.0(With_Images).html)
+
+This is the second version of the first SVG and this one has images and has more detail than the other one.
