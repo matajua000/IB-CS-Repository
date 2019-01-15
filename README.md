@@ -1,12 +1,25 @@
 # Welcome to GitHub Pages
-This page holds most of the things that I have done in this class since last semester and also some of the frist things that I worked on frist things that I did on GitHub. This has the link that will take you to the websites where my works are.
+
+This page holds most of the things that I have done in this class since last semester and also some of the first things that I worked on the first things that I did on GitHub. This has the link that will take you to the websites where my works are.
+
 ## Demos
+
 ### [Link For Class Notes](https://github.com/matajua000/IB-CS-Repository/blob/master/Class%20Notes.md)
+
+This is just some of the notes that we took on the second day about two of the first people that were considered computer scientist because of the programs that they did.
 
 ### [Link For Course Discription](https://github.com/matajua000/IB-CS-Repository/blob/master/IB%20CS%20Course%20Description.md)
 
+This just holds the course description of the class.
+
 ### [Link For Syllabus](https://github.com/matajua000/IB-CS-Repository/blob/master/IB%20CS%20Syllabus.md)
+
+This is the syllabus of class
 
 ### [Link Multi-Lingual Hello World](https://matajua000.github.io/IB-CS-Repository/Multi-Language-Hello-World.HTML)
 
-### [Link For My Protype](https://matajua000.github.io/IB-CS-Repository/Prototype.html)
+This is shown a program that I did that is showing the different computer languages that exist.
+
+### [Link For My Protoype](https://matajua000.github.io/IB-CS-Repository/Prototype.html)
+
+
