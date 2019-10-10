@@ -41,4 +41,5 @@ This is an SVG but I made it into HTML. It is pretty primitive and simple.
 This is a leaflet file that I crearted using the library that uses Google Maps.
 
 ### [Link To My Portfolio Update](https://matajua000.github.io/IB-CS-Repository/Coding-Game.html)
+
 This is one of the new things that I have created this year using loops and pop ups.
