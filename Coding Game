@@ -1,0 +1,51 @@
+<html>
+  <body>
+	<script>
+  var welcolme
+    welcolme="Welcolme to the Imaginary World Of Blade Blade"
+
+  var intro
+    intro="You have accepted to play this game. This game is not the safest thing out here but it is fun to play. You were sucked into a videogame and you have to beat the game in order to be able to escape the game. If you die in the game then you die in the real world"
+  var waring
+    warning="In order to get to the end of the game you have to beat the ultimate Blade Blade master in a battle. The task is not easy, if it was then would it really be fun. Remember if you die in game then you will die in the real world."
+
+  var chicken
+    chicken="It is okay to chicken out<br><br>You are have no way to get out now"
+
+    var user_quit;
+      user_quit = false;
+
+
+
+
+    alert(welcolme);
+  	var user_play;
+
+
+    while(user_quit == false){
+      user_play = confirm("Do you want to play?");
+
+
+
+  	if (user_play ==true){
+    	alert("Let It Rip");
+      alert(intro)
+      yes_button = confirm("Are you sure you want to continue?");
+
+      if (yes_button ==true) {
+      	alert("You may continue. Be warned");
+        alert(warning);
+      }
+
+      else{
+        document.write(chicken)
+      }
+  	}
+  	else {
+    	document.write("Well Your Dead");
+  	}
+    user_quit = confirm("Do you want to die?");
+}
+	</script>
+  </body>
+</html>
